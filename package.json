@@ -1,0 +1,14 @@
+{
+  "name": "abracadabra",
+  "version": "1.0.0",
+  "description": "desafío abracadabra",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "author": "briggitte ramírez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}

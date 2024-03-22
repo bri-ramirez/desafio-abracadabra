@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-image: url('/assets/images/fondo.jpg');
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-shadow: 1px 1px 7px black;
+}
+
+.galeria {
+  display: flex;
+  width: 75%;
+  margin: auto;
+}
+
+.sombrero {
+  opacity: 0.5;
+}
+
+.sombrero:hover {
+  opacity: 1;
+}
+
+.btn-volver {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
